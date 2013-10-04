@@ -14,13 +14,14 @@ $j(document).ready(function(){
 				
 				$j("#mainMenu ul li").mouseover(function(){
 										
-									$j(this).find("#dw").stop(true,false).fadeIn(300);
+									$j(this).find(".subMenu").stop(true,false).fadeIn(300);
+							
 										
 				});
 				
 				$j("#mainMenu ul li").mouseout(function(){
 											  
-											 $j(this).find("#dw").stop(true,false).fadeOut(150);
+											 $j(this).find(".subMenu").stop(true,false).fadeOut(150);
 											  
 											  
 				});
@@ -41,6 +42,13 @@ $j(document).ready(function(){
 				}
 					
 				getRandomValue();
+				
+				
+				
+				
+				
+				
+				
 				
 							
 	});// end of jquery//

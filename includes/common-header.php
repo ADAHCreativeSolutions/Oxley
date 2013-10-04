@@ -44,13 +44,21 @@ function active_class($reference) {
     <div id="mainMenu">
 
         	<ul>
-            	<li><a <?php echo active_class("waistbands") ?> href="../waistbands/">WaistBands</a></li>
-                <li><a <?php echo active_class("pocketing") ?>  href="../pocketing/">Pocketing</a></li>
-                <li><a <?php echo active_class("linings") ?>  href="../linings/">Lining</a></li>
-                <li><a <?php echo active_class("grilon") ?>  href="../grilon/">Grilon</a></li>
-                <li><a <?php echo active_class("tape") ?>  href="../tape/">Anti-Fray Tapes</a></li>
-                <li><a <?php echo active_class("hooks") ?>  href="../hooks/">Hooks and bars</a></li>
-                <li><a <?php echo active_class("elastic") ?>  href="../elastic/">Clear Elastics</a></li>
+                       	<li><a <?php echo active_class("waistbands") ?> href="../waistbands/">WaistBands</a></li>
+             <li><a <?php echo active_class("grilon") ?>  href="../grilon/">Grilon</a></li>
+   <li><a <?php echo active_class("elastic") ?>  href="../elastic/">Clear Elastics</a></li>
+                
+                	
+<li><a <?php echo active_class("pocketing") ?>  href="../pocketing/">Pocketing</a></li>
+<li><a <?php echo active_class("linings") ?>  href="../linings/">Lining</a></li>
+<li><a <?php echo active_class("tape") ?>  href="../tape/">Anti-Fray Tapes</a></li>
+<li><a <?php echo active_class("hooks") ?>  href="../hooks/">Hooks and bars</a></li>
+<li><img src="../resources/images/down_arrow.png" style="position:absolute; top:16px;right:20px;" /><a href="#">More Products &nbsp;&nbsp;&nbsp; </a>
+<div class="subMenu">
+<a <?php echo active_class("jacquard") ?> href="../jacquard/">Jacquard</a>
+<a <?php echo active_class("scallops") ?> href="../scallops/">Scallops & Coded Piping</a>
+</div>
+</li>
                 
             </ul>
         </div>	

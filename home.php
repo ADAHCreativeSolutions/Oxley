@@ -41,9 +41,7 @@ subsidiary and the center in Asia for the production and distribution of  OXLEY 
         			<ul>
             			<li><a href="home.php">HOME</a></li>
                         <li><a>|</a></li>
-                		
-						
-						<li><a href="contact/">CONTACT US</a></li>
+                		<li><a href="contact/">CONTACT US</a></li>
             		</ul>
          		</div>
         </div>
@@ -68,14 +66,28 @@ subsidiary and the center in Asia for the production and distribution of  OXLEY 
     </div>
     <div id="mainMenu">
 
-        	<ul>
-            	<li><a href="waistbands/">WaistBands</a></li>
+        	<ul>  <li><a href="waistbands/">WaistBands</a></li>
+            	  
+                  
+                  
+                    
                 <li><a href="pocketing/">Pocketing</a></li>
                 <li><a href="linings/">Lining</a></li>
                 <li><a href="grilon/">Grilon</a></li>
                 <li><a href="tape/">Anti-Fray Tapes</a></li>
                 <li><a href="hooks/">Hooks and bars</a></li>
                 <li><a href="elastic/">Clear Elastics</a></li>
+                
+                <li><img src="resources/images/down_arrow.png" style="position:absolute; top:16px;right:20px;" /><a href="jacquard/">More Products &nbsp;&nbsp;&nbsp;</a>
+                  	<div class="subMenu">
+<a href="jacquard/">Jacquard</a>
+<a href="scallops/">Scallops & Coded Piping</a>
+         
+                 
+                    </div>
+                  
+                  </li>
+           
                 
             </ul>
         </div>	
