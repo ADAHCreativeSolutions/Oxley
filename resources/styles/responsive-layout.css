@@ -1,0 +1,95 @@
+/** 
+Responsive layout frame work for all type of websites
+overided the bootstrap main layout css framework prefix added .wrapper
+**/
+ 
+ *{margin:0px;padding:0px;font-size: 100%;}
+ html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:hover, a:active {outline: 0;}
+.wrapper{margin: 0 auto;position: relative;}
+.wrapper-fluid{position:relative;}
+.wrapper .rw{position:relative;clear:both;}
+.wrapper .sp1{float:left;width:8.33333%}
+.wrapper .sp2{float:left;width:16.66666%}
+.wrapper .sp3{float:left;width:24.99999%}
+.wrapper .sp4{width:33.33332%;float:left;}
+.wrapper .sp5{width:41.66665%;float:left;}
+.wrapper .sp6{width:49.99998%;float:left;}
+.wrapper .sp7{width:58.33331%;float:left;}
+.wrapper .sp8{width:66.66664%;float:left;}
+.wrapper .sp9{width:74.99997%;float:left;}
+.wrapper .sp10{width:83.33333%;float:left;}
+.wrapper .sp11{width:91.66663%;float:left;}
+.wrapper .sp12{width:100%;float:left;}
+.wrapper .sp83{width:22.22222%; float:left;}
+.wrapper .sp73{width:19.44444%; float:left;}
+.wrapper .clear{clear:both;}
+.wrapper [class*="sp"]{min-height:1px;position:relative; margin:0px;}
+.showGrid{
+	background:#999;
+}
+img{ /* Responsive images (ensure images don't scale beyond their parents) */
+  max-width: 100%; /* Part 1: Set a maxium relative to the parent */
+  width: auto\9; /* IE7-8 need help adjusting responsive images */
+  height: auto; /* Part 2: Scale the height according to the width, otherwise you get stretching */
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  }
+
+.visible-phone{}
+.visible-tablet{}
+.visible-desktop{}
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media (max-width: 767px){
+.wrapper [class*="sp"]{width:100%;clear:both;}
+.visible-phone { display:block;}
+.visible-tablet {display:none;}
+.visible-desktop {display:none;}
+}
+
+@media(min-width : 240px) and (max-width : 320px) {
+.wrapper{min-width:240px; max-width:320px;}
+}
+
+@media(min-width : 320px) and (max-width : 480px) {
+.wrapper{max-width:480px;}
+}
+@media (min-width : 480px) and (max-width : 767px) {
+.wrapper{min-width:480px; max-width:767px;}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width : 768px) and (max-width : 999px) {
+
+.wrapper{min-width:768px; max-width:960px;}
+.visible-phone { display:none;}
+.visible-tablet {display:block;}
+.visible-desktop {display:none;}
+
+}
+
+/* Desktops and laptops ----------- */
+@media (min-width : 1024px) {
+.wrapper{width:1000px;}
+.visible-phone { display:none;}
+.visible-tablet {display:none;}
+.visible-desktop {display:block;}
+}
+
+
+
+@media (min-width : 1140px) and (max-width:1920px){
+	.wrapper{width:1000px;}
+.visible-phone { display:none;}
+.visible-tablet {display:none;}
+.visible-desktop {display:block;}
+	}
+
+
